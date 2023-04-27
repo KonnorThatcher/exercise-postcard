@@ -1,0 +1,84 @@
+* {
+	border: 1px dashed rgba(255, 0, 0, 0);
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: cornsilk;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 5px;
+	border: 3px dashed lightcoral;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header h1 {
+	width: 90%;
+	margin: 0;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 3px;
+}
+
+.body-left {
+	width: 55%;
+	border-right: 1px solid black;
+}
+
+.body-right {
+	width: 45%;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.23em;
+}
+
+input {
+	background-color: cornsilk;
+	border-bottom: 1px solid grey;
+	width: 100%;
+	font-size: 1.1em;
+}
+
+p,
+input {
+	font-family: "Reenie Beanie";
+}
+
+.postcard-footer {
+	text-align: center;
+	margin-top: 8px;
+}
+
+button {
+	background-color: lightskyblue;
+	padding: 5px;
+}
+
+.postcard-header h1,
+button {
+	font-family: "Merienda";
+}
